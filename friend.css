@@ -1,0 +1,80 @@
+body {
+font-family: "High Tower Text", sans-serif;
+margin: 0;
+padding: 20px;
+background-color: #C1E1C1;
+color: #333;
+}
+
+h1 {
+background-color: #81B081;
+}
+
+h2, h3 {
+text-align: center;
+font-family: "Goudy Stout", sans-serif;
+font-size: 30px;
+margin-bottom: 30px;
+color: #2E573A;
+}
+
+table {
+margin: 20px auto;
+width: 90%;
+border-spacing: 15px;
+}
+
+table td {
+text-align: center;
+position: relative;
+}
+
+table img {
+width: 150px;
+height: 200px;
+border-radius: 10px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+transition: transform 0.3s;
+}
+
+table img:hover {
+transform: scale(1.1);
+}
+
+table .name {
+display: none;
+position: absolute;
+bottom: 10px;
+left: 50%;
+transform: translateX(-50%);
+font-size: 15px;
+color: #fff;
+background-color: black;
+padding: 5px 10px;
+border-radius: 5px;
+}
+
+table td:hover .name {
+display: block;
+}
+
+p {
+font-size: 18px;
+text-align: center;
+margin: 20px;
+}
+
+a {
+display: block;
+text-align: center;
+margin: 20px auto;
+text-decoration: none;
+}
+
+a img {
+transition: transform 0.3s;
+}
+
+a img:hover {
+transform: scale(1.2);
+}

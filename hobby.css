@@ -1,0 +1,60 @@
+h1 {
+background-color: #B8A1CC;
+text-align: center;
+}
+
+h2 {
+text-align: center;
+font-family: Goudy Stout;
+font-size: 32px;
+color: #5E4A73;
+}
+
+table {
+margin: 20px auto;
+width: 900px;
+border-spacing: 15px;
+}
+
+table td {
+text-align: center;
+}
+
+table img {
+width: 200px;
+height: 200px;
+border-radius: 10px;
+box-shadow: 0 4px 8px;
+transition: transform 0.3s;
+}
+
+table img:hover {
+transform: scale(1.1);
+}
+
+table video {
+border-radius: 10px;
+box-shadow: 0 4px 8px;
+}
+
+table p {
+font-size: 14px;
+color: #333;
+font-weight: bold;
+margin-top: 10px;
+}
+
+a {
+display: block;
+text-align: center;
+margin: 20px auto;
+text-decoration: none;
+}
+
+a img {
+transition: transform 0.3s;
+}
+
+a img:hover {
+transform: scale(1.2);
+}
